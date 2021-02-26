@@ -4,13 +4,13 @@
       <el-timeline-item  placement="top" :timestamp="userInfo.lastActiveTime">
         <el-card>
           <h4>最后活动时间</h4>
-          <p>{{ userInfo.realName+'在校考系统中最后活动了' }}</p>
+          <p>{{ userInfo.realName+'在考试系统中最后活动了' }}</p>
         </el-card>
       </el-timeline-item>
       <el-timeline-item  placement="top" :timestamp="userInfo.createTime">
         <el-card>
           <h4>加入时间</h4>
-          <p>{{ userInfo.realName+'加入了校考系统' }}</p>
+          <p>{{ userInfo.realName+'加入了考试系统' }}</p>
         </el-card>
       </el-timeline-item>
     </el-timeline>

@@ -1,11 +1,11 @@
 logging:
-  path: /usr/log/xzs/
+  path: /usr/log/haxf/
 
 spring:
   redis:
     host: localhost
   datasource:
-    url: jdbc:mysql://localhost:3306/xzs?useSSL=false&useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true&allowMultiQueries=true
-    username: root
-    password: 123456
+    url: jdbc:mysql://192.168.8.123:3306/haxf?useSSL=false&useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true&allowMultiQueries=true
+    username: admin
+    password: jx@123456
     driver-class-name: com.mysql.cj.jdbc.Driver

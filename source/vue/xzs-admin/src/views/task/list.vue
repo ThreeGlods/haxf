@@ -1,8 +1,8 @@
 <template>
   <div class="app-container">
     <el-form :model="queryParam" ref="queryForm" :inline="true">
-      <el-form-item label="年级：">
-        <el-select v-model="queryParam.gradeLevel" placeholder="年级" clearable>
+      <el-form-item label="消防队：">
+        <el-select v-model="queryParam.gradeLevel" placeholder="消防队" clearable>
           <el-option v-for="item in levelEnum" :key="item.key" :value="item.key" :label="item.value"></el-option>
         </el-select>
       </el-form-item>
@@ -14,7 +14,7 @@
     <el-table v-loading="listLoading" :data="tableData" border fit highlight-current-row style="width: 100%">
       <el-table-column prop="id" label="Id"  width="100" />
       <el-table-column prop="title" label="标题" />
-      <el-table-column prop="gradeLevel" label="学级"  :formatter="levelFormatter"/>
+      <el-table-column prop="gradeLevel" label="消防队"  :formatter="levelFormatter"/>
       <el-table-column prop="createUserName" label="发送人"  width="100" />
       <el-table-column prop="createTime" label="创建时间" width="160px"/>
       <el-table-column  label="操作" align="center"  width="160px">

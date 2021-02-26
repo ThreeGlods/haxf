@@ -5,8 +5,8 @@
       <el-form-item label="学科：" required>
         <el-input v-model="form.name"></el-input>
       </el-form-item>
-      <el-form-item label="年级：" required>
-        <el-select v-model="form.level" placeholder="年级">
+      <el-form-item label="消防队：" required>
+        <el-select v-model="form.level" placeholder="消防队">
           <el-option v-for="item in levelEnum" :key="item.key" :value="item.key" :label="item.value"></el-option>
         </el-select>
       </el-form-item>

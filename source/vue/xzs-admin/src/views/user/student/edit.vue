@@ -72,7 +72,7 @@ export default {
           { required: true, message: '请输入真实姓名', trigger: 'blur' }
         ],
         userLevel: [
-          { required: true, message: '请选择年级', trigger: 'change' }
+          { required: true, message: '请选择消防队', trigger: 'change' }
         ]
       }
     }

@@ -49,13 +49,13 @@ const constantRoutes = [
         path: 'student/list',
         component: () => import('@/views/user/student/list'),
         name: 'UserStudentPageList',
-        meta: { title: '学生列表', noCache: true }
+        meta: { title: '消防员列表', noCache: true }
       },
       {
         path: 'student/edit',
         component: () => import('@/views/user/student/edit'),
         name: 'UserStudentEdit',
-        meta: { title: '学生编辑', noCache: true, activeMenu: '/user/student/list' },
+        meta: { title: '消防员编辑', noCache: true, activeMenu: '/user/student/list' },
         hidden: true
       },
       {

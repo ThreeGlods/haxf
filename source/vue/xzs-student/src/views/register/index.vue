@@ -7,7 +7,7 @@
       <div class="lowin-box lowin-register">
         <div class="lowin-box-inner">
           <el-form ref="loginForm" :model="loginForm">
-            <p>学之思考试系统</p>
+            <p>淮安消防救援支队考试系统</p>
             <div class="lowin-group">
               <label>用户名 </label>
               <el-input ref="userName" v-model="loginForm.userName" class="lowin-input" placeholder="用户名"
@@ -20,8 +20,8 @@
                         @keyup.enter.native="handleLogin"/>
             </div>
             <div class="lowin-group">
-              <label>年级 </label>
-              <el-select class="lowin-input" v-model="loginForm.userLevel" placeholder="年级">
+              <label>消防队 </label>
+              <el-select class="lowin-input" v-model="loginForm.userLevel" placeholder="消防队">
                 <el-option v-for="item in levelEnum" :key="item.key" :value="item.key" :label="item.value"></el-option>
               </el-select>
             </div>
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="account-foot-copyright">
-      <span>Copyright © 2021 武汉思维跳跃科技有限公司 版权所有</span>
+      <span>Copyright © 2021 ThreeGlods</span>
     </div>
   </div>
 </template>

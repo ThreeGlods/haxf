@@ -24,7 +24,7 @@ export default {
   },
   data () {
     return {
-      title: '学之思管理系统'
+      title: '消防考试管理系统'
     }
   }
 }

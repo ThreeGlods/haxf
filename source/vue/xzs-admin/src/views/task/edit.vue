@@ -2,8 +2,8 @@
   <div class="app-container">
 
     <el-form :model="form" ref="form" label-width="100px" v-loading="formLoading" :rules="rules">
-      <el-form-item label="年级：" prop="gradeLevel"  required>
-        <el-select v-model="form.gradeLevel" placeholder="年级" @change="levelChange" >
+      <el-form-item label="消防队：" prop="gradeLevel"  required>
+        <el-select v-model="form.gradeLevel" placeholder="消防队" @change="levelChange" >
           <el-option v-for="item in levelEnum" :key="item.key" :value="item.key" :label="item.value"></el-option>
         </el-select>
       </el-form-item>
@@ -92,7 +92,7 @@ export default {
         total: 0
       },
       rules: {
-        gradeLevel: [{ required: true, message: '请输入年级', trigger: 'change' }],
+        gradeLevel: [{ required: true, message: '请输入消防队', trigger: 'change' }],
         title: [{ required: true, message: '请输入任务标题', trigger: 'blur' }]
       }
     }
