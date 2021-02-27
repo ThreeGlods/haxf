@@ -266,7 +266,7 @@
                     }
                 }, e._l(e.paperTypeEnum, (function (e) {
                     return n("el-option", {key: e.key, attrs: {value: e.key, label: e.value}})
-                })), 3)], 3), n("el-form-item", {
+                })), 6)], 6), n("el-form-item", {
                     directives: [{
                         name: "show",
                         rawName: "v-show",
