@@ -202,6 +202,12 @@ const constantRoutes = [
         component: () => import('@/views/answer/list'),
         name: 'AnswerPageList',
         meta: { title: '答卷列表', noCache: true }
+      },
+      {
+        path: 'score',
+        component: () => import('@/views/answer/score'),
+        name: 'ScorePageList',
+        meta: { title: '得分排名', noCache: true }
       }
     ]
   },
