@@ -41,8 +41,8 @@ system:
       - /api/wx/student/user/register
   aliyun:
     endpoint: oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI4GHunkLRXR
-    accessKeySecret: RO1kvT2nMROL1y
+    accessKeyId: ****
+    accessKeySecret: ****
     bucketName: whxfoss
 #    qn:
 #    url: http://xzs.file.mindskip.net
